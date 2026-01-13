@@ -35,6 +35,7 @@ env/
 # Application data
 countdowns.json
 test_countdowns.json
+demo_countdowns.json
 
 # OS
 .DS_Store
