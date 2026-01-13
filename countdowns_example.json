@@ -1,0 +1,57 @@
+{
+  "countdowns": [
+    {
+      "id": "example-countdown-1",
+      "name": "Urodziny Jana",
+      "type": "TO",
+      "start_datetime": null,
+      "end_datetime": "2026-02-15 18:00:00",
+      "enabled": true,
+      "show": true,
+      "color": "#00ffff",
+      "alert_enabled": true,
+      "alert_minutes": 1440,
+      "alert_mode": "pulse",
+      "alert_color": "#ff0000"
+    },
+    {
+      "id": "example-countdown-2",
+      "name": "Dni od rozpoczęcia projektu",
+      "type": "FROM",
+      "start_datetime": "2026-01-01 09:00:00",
+      "end_datetime": null,
+      "enabled": true,
+      "show": true,
+      "color": "#00ff00",
+      "alert_enabled": false,
+      "alert_minutes": 60,
+      "alert_mode": "pulse",
+      "alert_color": "#ff0000"
+    },
+    {
+      "id": "example-countdown-3",
+      "name": "Wakacje 2026",
+      "type": "TO",
+      "start_datetime": null,
+      "end_datetime": "2026-07-01 00:00:00",
+      "enabled": true,
+      "show": true,
+      "color": "#ffff00",
+      "alert_enabled": true,
+      "alert_minutes": 10080,
+      "alert_mode": "blink",
+      "alert_color": "#ff8800"
+    }
+  ],
+  "history": [
+    {
+      "id": "example-history-1",
+      "name": "Projekt XYZ",
+      "type": "TO",
+      "started_at": "2025-12-01 10:00:00",
+      "ended_at": "2025-12-23 15:00:00",
+      "duration_seconds": 1900800,
+      "notes": "Zakończone pomyślnie"
+    }
+  ]
+}
