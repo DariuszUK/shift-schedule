@@ -15,13 +15,13 @@ def format_duration(seconds):
     
     parts = []
     if days > 0:
-        parts.append(f"{days} dni")
+        parts.append(f"{days}d")
     if hours > 0:
-        parts.append(f"{hours} godz")
+        parts.append(f"{hours}h")
     if minutes > 0:
-        parts.append(f"{minutes} min")
+        parts.append(f"{minutes}m")
     if secs > 0 or not parts:
-        parts.append(f"{secs} sek")
+        parts.append(f"{secs}s")
     
     return " ".join(parts)
 
